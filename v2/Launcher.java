@@ -8,7 +8,7 @@ public class Launcher {
 
 	public static void main(String[] args) {
 
-		Calculator ad = new AdapterByObject();
+		Calculator ad = new AdapterBy();
 
 //		Calculator calc = new DefaultCalculator();
 		

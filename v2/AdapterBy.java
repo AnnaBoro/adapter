@@ -6,17 +6,16 @@ import lesson6_9.adapter.adapter.v2.calc.Calculator;
 
 public class AdapterBy implements Calculator{
 
-    Arifmetika arif = new Arifmetika();
 
     @Override
     public int summa(int a, int b) {
         int[] nums = {a, b};
-        return arif.summa(nums);
+        return Arifmetika.summa(nums);
     }
 
     @Override
     public int multiply(int a, int b) {
 
-        return arif.multiply(a, b);
+        return Arifmetika.multiply(a, b);
     }
 }
