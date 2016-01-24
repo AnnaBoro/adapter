@@ -4,7 +4,7 @@ package lesson6_9.adapter.adapter.v2;
 import lesson6_9.adapter.adapter.Arifmetika;
 import lesson6_9.adapter.adapter.v2.calc.Calculator;
 
-public class AdapterByObject implements Calculator{
+public class AdapterBy implements Calculator{
 
     Arifmetika arif = new Arifmetika();
 
